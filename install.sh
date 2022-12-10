@@ -1,5 +1,4 @@
-mkdir -p ~/.dektop && cd ~/.dektop && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/xfce-verticals.zip && unzip xfce-verticals.zip && sudo cp -a xfce-verticals.png /usr/share/backgrounds/xfce/ && cd ~ && rm -R ~/.dektop
-clear
+
 echo "==========================================="
 echo "=                                         ="
 echo "=          SELAMAT DATANG BRO!            ="
@@ -20,6 +19,8 @@ sudo systemctl restart xrdp > /dev/null 2>&1
 echo "Menginstal Xclicker"
 wget https://github.com/Mbah-Shondong/aha/raw/main/xclicker_1.4.0_amd64.deb > /dev/null 2>&1
 sudo apt install ./xclicker_1.4.0_amd64.deb > /dev/null 2>&1
+mkdir -p ~/.dektop && cd ~/.dektop && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/xfce-verticals.zip && unzip xfce-verticals.zip && sudo cp -a xfce-verticals.png /usr/share/backgrounds/xfce/ && cd ~ && rm -R ~/.dektop > /dev/null 2>&1
+clear
 echo "========================================="
 echo "=                                       ="
 echo "=           STATUS COMPLETED            ="
