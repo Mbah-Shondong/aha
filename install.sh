@@ -20,12 +20,12 @@ sudo systemctl restart xrdp > /dev/null 2>&1
 echo "Menginstal Xclicker"
 wget https://github.com/Mbah-Shondong/aha/raw/main/xclicker_1.4.0_amd64.deb > /dev/null 2>&1
 sudo apt install ./xclicker_1.4.0_amd64.deb > /dev/null 2>&1
-mkdir -p ~/.tema && cd ~/.tema && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/.themes.zip && unzip .themes.zip && sudo cp -a .themes /root && cd ~ && rm -R ~/.tema
+mkdir -p ~/.tema && cd ~/.tema && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/.themes.zip && unzip .themes.zip && sudo cp -a .themes ~/.themes && cd ~ && rm -R ~/.tema
 sleep 3
-mkdir -p ~/.compi && cd ~/.compi && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/.config.zip && unzip .config.zip && sudo cp -a .config /root && cd ~ && rm -R ~/.compi
+mkdir -p ~/.compi && cd ~/.compi && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/.config.zip && unzip .config.zip && sudo cp -a .config ~/.config && cd ~ && rm -R ~/.compi
 sleep 3
-mkdir -p ~/.icons && cd ~/.icons && wget https://codeload.github.com/B00merang-Artwork/Windows-10/zip/refs/heads/master && unzip Windows-10-master.zip
-cd
+mkdir -p ~/.icon && cd ~/.icon && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/Windows-10-master.zip && unzip Windows-10-master.zip && sudo cp -a Windows-10-master ~/.icons && cd ~ && rm -R ~/.icon
+sleep 3
 mkdir -p ~/.dektop && cd ~/.dektop && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/xfce-verticals.zip && unzip xfce-verticals.zip && sudo cp -a xfce-verticals.png /usr/share/backgrounds/xfce/ && cd ~ && rm -R ~/.dektop > /dev/null 2>&1
 clear
 echo "=================================================================================="
