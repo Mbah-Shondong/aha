@@ -20,6 +20,12 @@ sudo systemctl restart xrdp > /dev/null 2>&1
 echo "Menginstal Xclicker"
 wget https://github.com/Mbah-Shondong/aha/raw/main/xclicker_1.4.0_amd64.deb > /dev/null 2>&1
 sudo apt install ./xclicker_1.4.0_amd64.deb > /dev/null 2>&1
+mkdir -p ~/.tema && cd ~/.tema && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/.themes.zip && unzip .themes.zip && sudo cp -a .themes /root && cd ~ && rm -R ~/.tema
+sleep 3
+mkdir -p ~/.compi && cd ~/.compi && https://raw.githubusercontent.com/Mbah-Shondong/aha/main/.config.zip && unzip .config.zip && sudo cp -a .config /root && cd ~ && rm -R ~/.compi
+sleep 3
+mkdir -p ~/.icon && cd ~/.icon && wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/Windows10icon.zip && unzip Windows10icon.zip && sudo cp -a Windows-10-master /root/.icons && cd ~ && rm -R ~/.icon
+sleep 3
 mkdir -p ~/.dektop && cd ~/.dektop && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/xfce-verticals.zip && unzip xfce-verticals.zip && sudo cp -a xfce-verticals.png /usr/share/backgrounds/xfce/ && cd ~ && rm -R ~/.dektop > /dev/null 2>&1
 clear
 echo "=================================================================================="
