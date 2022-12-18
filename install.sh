@@ -24,7 +24,7 @@ mkdir -p ~/.tema && cd ~/.tema && wget https://raw.githubusercontent.com/Mbah-Sh
 sleep 3
 mkdir -p ~/.compi && cd ~/.compi && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/.config.zip && unzip .config.zip && sudo cp -a .config ~/.config && cd ~ && rm -R ~/.compi
 sleep 3
-mkdir -p ~/.icon && cd ~/.icon && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/Windows-10-master.zip && unzip Windows-10-master.zip && sudo cp -a Windows-10-master ~/.icons && cd ~ && rm -R ~/.icon
+mkdir -p ~/.icon && cd ~/.icon && wget https://raw.githubusercontent.com/Mbah-Shondong/RDPCOLAB/main/Windows10icon.zip && unzip Windows10icon.zip && sudo cp -a Windows-10-master /usr/share/icons && cd ~ && rm -R ~/.icon
 sleep 3
 mkdir -p ~/.dektop && cd ~/.dektop && wget https://raw.githubusercontent.com/Mbah-Shondong/aha/main/xfce-verticals.zip && unzip xfce-verticals.zip && sudo cp -a xfce-verticals.png /usr/share/backgrounds/xfce/ && cd ~ && rm -R ~/.dektop > /dev/null 2>&1
 clear
