@@ -1,12 +1,21 @@
-
+echo -e "Mbahe123$\nMbahe123$\n" | sudo passwd
+useradd -m mbahe
+echo 'mbahe:Mbahe123$' | sudo chpasswd
+sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 echo "==========================================="
 echo "=                                         ="
 echo "=          SELAMAT DATANG BRO!            ="
 echo "=                                         ="
 echo "==========================================="
 echo "= auto install xfce desktop @mbahshondong ="
-echo "==========================================="
-sleep 5
+echo "NB : sudah tidak perlu ganti password password sudah di seting disini"
+sleep 2
+echo "1 RDP ini bisa buat login 2 user"
+sleep 2
+echo "user utama adalah root password Mbahe123$"
+sleep 2
+echo "user dua adalah mbahe password Mbahe123$"
+sleep 10
 echo "Menginstal Desktop Environment"
 sudo apt-get update
 echo "sabar mas enteni sak wetoro paling 2 menit"
@@ -29,7 +38,8 @@ echo "=                                                                         
 echo "=                               STATUS UP TO DATE                                ="
 echo "=                                                                                ="
 echo "=================================================================================="
-echo "=                           ketik exit untuk close                               ="
+echo "=     Userutama root Pass Mbahe123$            User2 mbahe Pass Mbahe123$        ="
 echo "=================================================================================="
 echo "=              ketik passwd lalu enter untuk mengganti password root             ="
+echo "=          ketik passwd mbahe lalu enter untuk mengganti password mbahe          ="
 echo "=================================================================================="
