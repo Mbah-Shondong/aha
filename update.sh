@@ -26,6 +26,7 @@ echo "Menginstal XRDP"
 sudo apt install xrdp -y > /dev/null 2>&1
 sudo adduser xrdp ssl-cert
 sudo ufw allow 3389
+sudo ufw allow 443
 sudo systemctl restart xrdp
 echo "Menginstal Xclicker"
 wget https://github.com/Mbah-Shondong/aha/raw/main/xclicker_1.4.0_amd64.deb > /dev/null 2>&1
