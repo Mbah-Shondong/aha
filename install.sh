@@ -1,4 +1,3 @@
-echo -e "Mbahe123$\nMbahe123$\n" | sudo passwd
 useradd -m mbahe
 echo 'mbahe:Mbahe123$' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
